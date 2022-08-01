@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
 
-    var prompts = [{
+    var dronegenLength = [{
         word: 'prompt 1',
         desc: 'words.'
     }, {
