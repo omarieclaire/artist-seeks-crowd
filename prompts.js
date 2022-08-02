@@ -1,17 +1,14 @@
 window.addEventListener("load", () => {
 
     var dronegen = [{
-      word: 'Shake',
-      desc: 'Shake your entire body wild while making a sound.'
+      word: 'Social Media',
+      desc: 'How has social media changed the way people consume content? How has it changed the way people comment on and relate to art?'
     }, {
-      word: 'Release',
-      desc: 'Form a sound in your mind. Release it out of your nose. Release it out of your mouth. Out of your belly. Out of your entire body.'
+      word: 'Relevance',
+      desc: 'How do you know if you are making something that is *relevant* to people? What clues can you find?'
     }, {
-      word: 'ZZZTHHSHH',
-      desc: 'Press your hands over your ears and and make sounds like zzzzzz and thhhhh and mmmm and others that come out.'
-    }, {
-      word: 'Ground',
-      desc: 'As you breathe out, make a high noise that gets deeper and deeper as you slowly collapse to the ground.'
+      word: 'Outside of Your Control',
+      desc: 'How much of the audience experience is completely outside your control or knowledge?'
     }, {
       word: 'Listen',
       desc: 'Are you just talking to your audience? Or are you letting them talk too?'
