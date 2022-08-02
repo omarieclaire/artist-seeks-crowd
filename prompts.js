@@ -1,50 +1,68 @@
 window.addEventListener("load", () => {
 
     var dronegen = [{
-      word: 'Shake',
-      desc: 'Shake your entire body wild while making a sound.'
+      word: 'Social Media',
+      desc: 'How has social media changed the way people consume content? How has it changed the way people comment on and relate to art?'
     }, {
-      word: 'Release',
-      desc: 'Form a sound in your mind. Release it out of your nose. Release it out of your mouth. Out of your belly. Out of your entire body.'
+      word: 'Relevance',
+      desc: 'How do you know if you are making something that is *relevant* to people? What clues can you find?'
     }, {
-      word: 'ZZZTHHSHH',
-      desc: 'Press your hands over your ears and and make sounds like zzzzzz and thhhhh and mmmm and others that come out.'
-    }, {
-      word: 'Ground',
-      desc: 'As you breathe out, make a high noise that gets deeper and deeper as you slowly collapse to the ground.'
-    }, {
-      word: 'Sway',
-      desc: 'Sway your body. Hum a long deep hum as you sway. Keep humming until your body is ready to stop.'
-    }, {
-      word: 'Throat',
-      desc: 'Breathe into the shallows of your throat. Breathe into your chest. Breathe your belly. Breathe the bowl of your pelvic floor. With your last breath out make the softest sound.'
-    }, {
-      word: 'Bend',
-      desc: 'Make a sound. Bend the sound and make it again. Fold the sound in two. Fold it again. Fold it until it is too tiny to make and hold it on your tongue until it dissolves.'
-    }, {
-      word: 'Fragile',
-      desc: 'Make sounds with objects around you until you find the most fragile sound. Wrap the air around the sound. Make the sound again and again, softer and softer until it disappears.'
+      word: 'Outside of Your Control',
+      desc: 'How much of the audience experience is completely outside your control or knowledge?'
     }, {
       word: 'Listen',
-      desc: 'Listen until you can hear everything.'
+      desc: 'Are you just talking to your audience? Or are you letting them talk too?'
+    }, {
+      word: 'Call and Response',
+      desc: 'Art is call and response. Audiences call. Artists respond.'
+    }, {
+      word: 'Meet Them',
+      desc: 'Audiences are people too. Meet them.'
+    }, {
+      word: 'Gather',
+      desc: 'Can a community gather around a work of art? Have you seen this happen before? Why did it happen?'
+    }, {
+      word: 'New Ways',
+      desc: 'Can you use old technology in a new way to connect with people?'
+    }, {
+      word: 'Wonder',
+      desc: 'Can you use technology to create wonder?'
+    }, {
+      word: 'Curiosity',
+      desc: 'Can you use technology to invite curiosity?'
+    }, {
+      word: 'Real Contributions',
+      desc: 'Could you make space for your audience to materially change your artwork? To make contributions that actually matter?'
+    }, {
+      word: 'Meaningful Contributions',
+      desc: 'How do you feel about inviting people into your artistic process in a meaningful way?'
+    }, {
+      word: 'Breadth or Depth',
+      desc: 'Do you want a bigger audience? Or stronger ties with a smaller audience?'
+    }, {
+      word: 'Dilute or Strengthen',
+      desc: 'Does audience participation dilute or strengthen your work?'
+    }, {
+      word: 'Listen',
+      desc: 'Does your audience feel heard? What does it mean to listen to your audience?'
+    }, {
+      word: 'Safe',
+      desc: 'Does your audience feel safe enough to speak up? Do you want your audience to feel safe?'
+    }, {
+      word: 'Question Marks',
+      desc: 'Does your work have question marks?'
+    }, {
+      word: 'Earplugs',
+      desc: 'Every public artistic act is a conversational gambit. Take off your earplugs.'
     }, {
       word: 'Space',
-      desc: 'There is a space waiting for you. The space is shaped exactly like the sound you will make. Place your sound in space, gently, precisely.'
+      desc: 'Have you made space for your audience to show up? Have you left a pause for them to speak?'
     }, {
-      word: 'Between',
-      desc: 'Make a sound. Make another sound. Listen for the space between two sounds. Hold your attention there in the space between.'
+      word: 'Questions',
+      desc: 'How are you answering the questions of your audience? How are you making space for the questions to emerge before you answer them?'
     }, {
-      word: 'Friend',
-      desc: 'Press your ear against any appliance who is singing - like a fridge. Sing along exactly the same.'
-    }, {
-      word: 'Ghost',
-      desc: 'Remember the last sound you heard. Allow it to haunt you. Let it move through you until it is inseparable from you.'
-    }, {
-      word: 'Body',
-      desc: 'Press your ear against a living body (another? your own?) and listen.'
-    }, {
-      word: 'Object',
-      desc: 'Find an object and make it sacred with your will. Hold it in your hands. Touch it with your eyes and breath. Sing to it in one long note, bathing it in your note.'
+      word: 'Go to Them',
+      desc: 'How can you go to your audience rather than trying to bring an audience to you? In a literal and direct sense, how could you do this?'
     }, ];
   
     // bucket to hold used items
