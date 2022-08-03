@@ -54,10 +54,10 @@ window.addEventListener("load", () => {
     }, {
         word: ' ',
         desc: 'How do you prime your audience for your work? How do they prime you?'
-      }, {
+    }, {
         word: ' ',
         desc: 'What does it mean if there is no stage? '
-      }, {
+    }, {
         word: ' ',
         desc: 'How is the relationship between artists and audiences changing in the digital age? In the past, if you went to the museum and took photos you would be thrown out. Now museums have selfie stations.'
     }, {
