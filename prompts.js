@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
       desc: 'Audiences are people too. Meet them.'
     }, {
       word: ' ',
-      desc: 'Can a community gather around a work of art? Have you seen this happen? Why did it happen?’
+      desc: 'Can a community gather around a work of art? Have you seen this happen? Why did it happen?'
     }, {
       word: ' ',
       desc: 'Can you use an old technology in a new way to connect with people?'
