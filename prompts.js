@@ -32,6 +32,51 @@ window.addEventListener("load", () => {
       desc: 'Do you want a bigger audience? Or stronger ties with a smaller audience?'
     }, {
       word: ' ',
+      desc: 'Have you made space for your audience to show up? Have you left a pause for them to speak?'
+    }, {
+      word: ' ',
+      desc: 'How are you answering the questions of your audience? How are you making space for the questions to emerge before you answer them?'
+    }, {
+      word: ' ',
+      desc: 'How can you go to your audience rather than trying to bring an audience to you? In a literal and direct sense, how could you do this?'
+    }, {
+      word: ' ',
+      desc: 'How can you take your audience by the hand and pull them in? Does your audience take you by the hand and pull you in?'
+    }, {
+      word: ' ',
+      desc: 'How do you know if you are making something that is *relevant* to people? What clues can you find?'
+    }, {
+      word: ' ',
+      desc: 'How do you make your audience feel seen?'
+    }, {
+      word: ' ',
+      desc: 'How do you prime your audience for your work? How do they prime you?'
+    }, {
+      word: ' ',
+      desc: 'What does it mean if there is no stage? '
+    }, {
+      word: ' ',
+      desc: 'How is the relationship between artists and audiences changing in the digital age? In the past, if you went to the museum and took photos you'd be thrown out. Now museums have selfie stations.'
+    }, {
+      word: ' ',
+      desc: 'If digital audience engagement is not marketing, what is it?'
+    }, {
+      word: ' ',
+      desc: 'Put an end to terminal thinking. The curtain never really comes down.'
+    }, {
+      word: ' ',
+      desc: 'What is the difference between an audience and a community?'
+    }, {
+      word: ' ',
+      desc: 'What does the audience encounter before they walk in the door? What is “the door” in your project?'
+    }, {
+      word: ' ',
+      desc: 'What is the difference between doing a show on Instagram live and doing a show on a street corner?'
+    }, {
+      word: ' ',
+      desc: 'What does it mean if the curtain never really comes down?'
+    }, {
+      word: ' ',
       desc: 'Does audience participation dilute or strengthen your work?'
     }, {
       word: ' ',
