@@ -3,26 +3,27 @@
   src: url(RemboyRegular.tff);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Major Mono Display', monospace;
+
   }
   
   body {
-    font-family: "Raleway", sans-serif;
+    
+    /* font-family: "Raleway", sans-serif; */
     /* color: #rgb(13, 16, 68) */
     font-size: 2rem;
-    background-color: #e5e5f7;
+    /* background-color: #e5e5f7; */
 
     background-image:  radial-gradient(#444cf7 0.5px, transparent 0.02px), radial-gradient(#444cf7 0.3px, #e5e5f7 0.3px);
     background-size: 40px 40px;
     background-position: 0 0, 80px 80px;
-
-/* background-color: #e5e5f7;
-opacity: 0.8;
-background-size: 20px 20px;
-background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e5f7 .3px, #e5e5f7); */
   }
   
   @media screen and (min-width: 981px) {
@@ -32,8 +33,12 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     font-family: RemboyRegular;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: uppercase;
+
+    letter-spacing: .8vw;
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,6 +51,11 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
   }
 
   header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 1rem;
   }
   
@@ -55,7 +65,7 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 60vh;
+    /* height: 60vh; */
     /* padding: 2rem; */
    
   }
@@ -94,7 +104,7 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
 
   #desc{
     color: #2e157d;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   @media screen and (min-width: 981px) {
@@ -106,9 +116,10 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
   #descdiv {
     display: flex;
     /* top: 33%; */
-    flex-basis: 200px;
+    /* flex-basis: 200px; */
+    /* top: 40%; */
     max-width: 90%;
-    height: 60vh;
+    height: 40vh;
     font-size: 2.5rem;
     justify-content: center;
     align-items: center;
@@ -119,6 +130,7 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
   @media screen and (min-width: 981px) {
     #descdiv {
       font-size: 2rem;
+      height: 60vh;
       /* font-size: 70px; */
     }
   }
@@ -126,7 +138,7 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
   #button-wrapper{
     /* bottom: 2rem !important; */
     position: absolute;
-    bottom: 30px;
+    bottom: 10%;
 
   }
 
@@ -134,7 +146,7 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
     #button-wrapper{
       /* bottom: 2rem !important; */
       position: absolute;
-      bottom: 20%;
+      bottom: 15%;
   
     }
   }
@@ -143,15 +155,36 @@ background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e
     font-size: 2.5rem;
     /* color: linear-gradient(90deg,#ff8a00,#e52e71); */
     color: #7a00ff;
+    background-color: rgba(126, 126, 223, .3);
     text-decoration: none;
     font-size: 2rem;
     letter-spacing: .2rem;
-    transition: all 0.9s ease;
+    /* transition: all 0.9s ease; */
+    padding: 1rem;
+    outline: 2px solid rgb(46, 0, 132);
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    /* color: #FFF; */
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+    
   }
   
   #genbtn:hover {
     color: #d800ff;
-    letter-spacing: .1rem;
+    background-color: rgba(183, 126, 223, 0.3);
+
+    /* letter-spacing: .3rem; */
   }
  
+  #genbtn:active {/*OnClick*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*Move down*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+    border-bottom: none;
+}
  
