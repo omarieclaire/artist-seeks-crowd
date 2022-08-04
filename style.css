@@ -1,3 +1,8 @@
+@font-face {
+  font-family: RemboyRegular;
+  src: url(RemboyRegular.tff);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,46 +10,65 @@
   }
   
   body {
-    /* font-family: "Raleway", sans-serif; */
-    color: #454546;
-    font-size: 2.9rem;
+    font-family: "Raleway", sans-serif;
+    /* color: #rgb(13, 16, 68) */
+    font-size: 2rem;
+    background-color: #e5e5f7;
+
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.02px), radial-gradient(#444cf7 0.3px, #e5e5f7 0.3px);
+    background-size: 40px 40px;
+    background-position: 0 0, 80px 80px;
+
+/* background-color: #e5e5f7;
+opacity: 0.8;
+background-size: 20px 20px;
+background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.01px, #e5e5f7 .3px, #e5e5f7); */
   }
   
   @media screen and (min-width: 981px) {
     body {
-      font-size: 1.9rem;
+      font-size: 1rem;
     }
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-family: RemboyRegular;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media screen and (min-width: 981px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  header {
+    padding: 1rem;
   }
   
   .wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .wrapper-inner {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 60vh;
+    /* padding: 2rem; */
+   
   }
+
   
   #worddiv {
+    /* top: 22%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 33%;
-    margin-top: 40px;
-    font-size: 2.5rem;
+    margin-top: 40px; */
+    /* font-size: 2.5rem; */
   }
   @media screen and (min-width: 981px) {
     #worddiv {
@@ -55,29 +79,72 @@
   #word {
     font-weight: 100;
   }
+
+  .subHead {
+    color: #0a0a49;
+    font-size: 1.3rem;
+  }
+
+  @media screen and (min-width: 981px) {
+    .subHead {
+      color: #0a0a49;
+      font-size: 1rem;
+    }
+  }
+
+  #desc{
+    color: #2e157d;
+    font-size: 1.6rem;
+  }
+
+  @media screen and (min-width: 981px) {
+    #desc{
+      font-size: 3rem;
+    }
+  }
   
   #descdiv {
-    flex-grow: 1;
-    flex-shrink: 0;
+    display: flex;
+    /* top: 33%; */
     flex-basis: 200px;
-    max-width: 60%;
+    max-width: 90%;
+    height: 60vh;
     font-size: 2.5rem;
-  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     /* font-size: 70px; */
   }
   
   @media screen and (min-width: 981px) {
     #descdiv {
-      font-size: 1.2rem;
+      font-size: 2rem;
       /* font-size: 70px; */
+    }
+  }
+
+  #button-wrapper{
+    /* bottom: 2rem !important; */
+    position: absolute;
+    bottom: 30px;
+
+  }
+
+  @media screen and (min-width: 981px) {
+    #button-wrapper{
+      /* bottom: 2rem !important; */
+      position: absolute;
+      bottom: 20%;
+  
     }
   }
   
   #genbtn {
+    font-size: 2.5rem;
     /* color: linear-gradient(90deg,#ff8a00,#e52e71); */
     color: #7a00ff;
     text-decoration: none;
-    /* font-size: 5.5rem; */
+    font-size: 2rem;
     letter-spacing: .2rem;
     transition: all 0.9s ease;
   }
